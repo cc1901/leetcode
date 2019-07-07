@@ -20,9 +20,19 @@ public class NumberOf1Bits {
         return count;
     }
 
+    public int hammingWeight3(int n) {
+        int count = 0;
+        while (n != 0) {
+            count++;
+            n &= (n - 1);
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         int input = 0b11111111111111111111111111111101;
         System.out.println(new NumberOf1Bits().hammingWeight1(input));
         System.out.println(new NumberOf1Bits().hammingWeight2(input));
+        System.out.println(new NumberOf1Bits().hammingWeight3(input));
     }
 }

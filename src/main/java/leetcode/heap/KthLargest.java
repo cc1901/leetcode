@@ -1,6 +1,5 @@
 package leetcode.heap;
 
-import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class KthLargest {
@@ -30,6 +29,5 @@ public class KthLargest {
     }
 
     public static void main(String[] args) {
-
     }
 }

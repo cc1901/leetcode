@@ -1,4 +1,4 @@
 package leetcode.backTracking;
 
-public class NQueues {
+public class NQueens {
 }
